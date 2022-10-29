@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+
+html{
+    width: 50%;
+    height: 50%;
+   /* border: 1px solid;*/
+    stroke: none;
+    padding: 20%;
+  padding-top: 10px;
+    background-color: greenyellow;
+}
+h1{
+    color: white;
+    align-content: center;
+    font-weight: bolder;
+   /* width: fit-content;*/
+    font: 100%;
+  opacity: 100%;
+}
+
+a{
+  margin: 10px;
+  cursor: pointer;
+  /*padding: 10px;*/
+  border-radius: 20%;
+  width: 100%;
+  align-items: center;
+  align-content: center;
+}
+a :hover{
+    color: black;
+  background-color: green;
+  opacity: 80%;
+  font: bold;
+}
+a href {
+  padding-bottom: 10px;
+  padding-top: 15px;
+}
+.label{
+  margin-top: 20px;
+  margin-bottom: 10pix;
+cursor: pointer;
+}
+id action{
+    cursor: pointer;
+}
+id action:hover{
+    background-color: green;
+}
+.container{
+  cursor: pointer;
+}

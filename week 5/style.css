@@ -1,0 +1,74 @@
+https://fonts.google.com/specimen/Big+Shoulders+Display
+https://fonts.google.com/specimen/Lexend+Deca
+
+* {
+    margin: 0;
+    padding: 0;
+    border-sizing: border-box;
+}
+main{
+    width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+align-items: center;
+  height: 100vh;
+}
+body{
+    background-color: lightgray;
+}
+.top-content{
+    background-color: #ffa500;
+    background-size: auto;
+    padding-left: 2rem;
+   width:50%; 
+  margin-top:10px;
+/*   border-radius: 10px; */
+}
+.top-side{
+    background-color: darkcyan;
+    padding-left: 2rem;
+  width:50%;
+background-size: auto;
+}
+.content{
+    background-color: rgb(6, 70, 70);
+    padding-left: 2rem;
+  width:50%;
+/*   border-radius: 10px; */
+}
+html{
+    background-color: black;
+}
+p{
+        font: bold;
+        font-Family: Lexend Deca;
+        font-weight: 400;
+        color: hsl(0, 0%, 100%, 0.75);
+        font-size: 15px;
+}
+h1{
+        font: bold;
+        font-Family: Big Shoulders Display;
+        font-weight: 700;
+        color: hsl(0, 0%, 100%, 0.75);
+        font-size: 15px;
+}
+button{
+     border-radius: 10px;
+    margin-bottom: 2rem;
+    border-width: 2rem;
+    border: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: #ffa500;
+}
+.top-side button{
+  color: darkcyan;
+}
+.content button{
+  color: rgb(6, 70, 70);
+}
+img{
+  margin-top: 2rem;
+}
